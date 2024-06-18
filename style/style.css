@@ -75,4 +75,27 @@ width: 100%;
     margin-right: auto;
     width: 50%;
   }
-  
+  /* réseaux sociaux*/
+  .social-icons{
+    font-size: 36px;
+    cursor: pointer;
+  }
+  .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover {
+    color: #ffffff;
+  }
+  .fab {
+    color: #ffffff;
+  }
+  /* footer style*/
+  #footer {
+    background-color: #340250;
+    text-align: center;
+  }
+  /* espacement entre sections*/
+  #apropos, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+  #contact {
+    padding-bottom: 4rem;
+  }
